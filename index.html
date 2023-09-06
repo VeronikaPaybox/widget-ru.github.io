@@ -8,18 +8,17 @@
           o = p.createElement(a);
           x = p.getElementsByTagName(a)[0];
           o.async = 1;
-          o.src = 'https://cdn.paybox.ru/widget/pbwidget.js?d=6.09.2023 14:21:51'
+          o.src = 'https://cdn.paybox.money/widget/pbwidget.js?' + 1 * new Date();
           x.parentNode.insertBefore(o, x);
       })(document, 'script');
     </script>
-    <script src="https://api.paybox.ru/client_script.js"></script>
 </head>
 <body>
     <button onclick="pay(100)">Оплатить</button>
  <script>
           function pay(amount) {
             var data = {
-                token: "MJYlMyBOGgncfb0A9K99ZlCSaikCYRzZ",
+                token: "Tf9LkZjbwD8XW17yAHqOp6eZkQ60zhAQ",
                 payment: {
                     order: "07121312",
                     amount: "2",
